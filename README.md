@@ -123,6 +123,7 @@ DATAUSED DOUBLE
 * The original given file (CellPhoneUsageByMonth.csv) is corrupted with some invalid data that will crash the program.  I have eliminated these invalid data by design in line with the given data schema.
 * I have also provided another set of data with input files named as 2019CellPhone.csv and 2019CellPhoneUsageByMonth.csv for your beta testing.  The only difference between the given files and these two 2019 files is that it covers different billing monthly period from 2018 to 2019.  The number of records in the given data for usage is 2000, but around 1600 in the 2019 data usage file.  However, you may freely use your new external files as you wish, provided that your files format must conform to your original database schema set on the first line given in each file.
 * Samples of the yearly cell phone reports generated from the command-line executions of the Web application are also given for you to reference.
+* To get the cell phone usage report, go to http://localhost:8080/ on any Web browser of your choice (e.g., FireFox, Google Chrome, or Safari) after running the program in section 3.4 above.
 
 Happy Testing and code review at your leisure !
 
