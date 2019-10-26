@@ -46,7 +46,7 @@ To approach this project, I have to look at what the business stakeholder wants 
 
 2) Data Design
   * Choosing H2 as in-memory database for fast query and implementation avoids tedious and time-consuming configuration and setup effort to store data that usually outperforms traditional way of using MySQL and Oracle database.
-  * Two database schema will be created in H2 database using sql queries in schema.sql every time when the java Web app is started up.  Similarly, these schema and database data will be destroyed upon the app is shut down.
+  * Two tables of a database schema will be created in H2 database using sql queries in schema.sql every time when the java Web app is started up.  Similarly, the schema and database data will be destroyed upon the app is shut down.
   * schema.sql is stored in the app resource directory as follows:
   DROP TABLE IF EXISTS CELLPHONE;
 CREATE TABLE CELLPHONE(
